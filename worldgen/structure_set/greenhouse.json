@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forestkeepers:greenhouse",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 98656535,
+    "spacing": 24,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}
