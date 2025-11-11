@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "forestkeepers:firewatch",
+      "structure": "forestkeepers:fish_pond",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 22456535,
-    "spacing": 24,
-    "separation": 6,
+    "salt": 64976535,
+    "spacing": 100,
+    "separation": 80,
     "type": "minecraft:random_spread"
   }
 }

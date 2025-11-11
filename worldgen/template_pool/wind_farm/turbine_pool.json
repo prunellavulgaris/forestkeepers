@@ -1,5 +1,5 @@
 {
-  "name": "forestkeepers:lithium_mine/mine_roads",
+  "name": "forestkeepers:wind_farm/turbine_pool",
   "fallback": "minecraft:empty",
   "elements": [
         {
@@ -13,7 +13,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "forestkeepers:lithium_mine/lithium_1",
+        "location": "forestkeepers:wind_farm/turbine_whole",
         "processors": "minecraft:empty"
       }
     },
@@ -22,7 +22,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "forestkeepers:lithium_mine/lithium_2",
+        "location": "forestkeepers:wind_farm/turbine_base_1",
         "processors": "minecraft:empty"
       }
     },
@@ -31,16 +31,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "forestkeepers:lithium_mine/lithium_3",
-        "processors": "minecraft:empty"
-      }
-    },
-    {
-      "weight": 3,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "forestkeepers:lithium_mine/lithium_4",
+        "location": "forestkeepers:wind_farm/turbine_base_2",
         "processors": "minecraft:empty"
       }
     }
