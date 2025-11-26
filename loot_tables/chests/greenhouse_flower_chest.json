@@ -1,254 +1,393 @@
 {
-  "type": "chest",
+  "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "min": 4,
-        "max": 8
-      },
+      "rolls": 2,
       "entries": [
         {
-          "type": "item",
-          "weight": 10,
-          "name": "kubejs:scrap_wood",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 5,
-                "max": 12
-              }
-            }
-          ]
-        },
+                    "type": "item",
+                    "name": "naturaldecormod:creeping_flox_purple_large",
+                    "weight": 3,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:creeping_flox_purple_small",
+                    "weight": 1,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:creeping_flox_blue_large",
+                    "weight": 2,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:creeping_flox_blue_small",
+                    "weight": 5,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]  
+                }
+      ]
+    },
         {
-          "type": "item",
-          "weight": 5,
-          "name": "minecraft:stick",
-          "functions": [
+      "rolls": 2,
+      "entries": [
+                    {
+                    "type": "item",
+                    "name": "naturaldecormod:nether_lily",
+                    "weight": 5,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:bird_of_paradise",
+                    "weight": 3,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 0,
+                                                    "max": 4
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:white_birdof_paradise_ndm",
+                    "weight": 1  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:dwarf_red_bottle_brush",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:dwarf_pink_bottle_brush",
+                    "weight": 5  
+                }
+      ]
+    },
             {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "supplementaries:ash",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "farmersdelight:straw",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 8
-              }
-            }
-          ]
-        }
+      "rolls": 2,
+      "entries": [
+                                {
+                    "type": "item",
+                    "name": "naturaldecormod:white_chrysanth",
+                    "weight": 5,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:purple_chrysanth",
+                    "weight": 3,
+                    "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:yellow_chrysanth",
+                    "weight": 1,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:viola_denim",
+                    "weight": 5,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:viola_blotched",
+                    "weight": 3,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:viola_sorbet",
+                    "weight": 1,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:viola_cardinal",
+                    "weight": 2,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:viola_delight",
+                    "weight": 5,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:viola_creeper",
+                    "weight": 5,
+                                        "functions": [
+                                    {
+                                        "function": "minecraft:set_count",
+                                        "count": {
+                                                    "type": "minecraft:uniform",
+                                                    "min": 2,
+                                                    "max": 10
+                                                }
+                                    }
+                                ]
+                }
       ]
     },
     {
-      "rolls": {
-        "min": 3,
-        "max": 6
-      },
+      "rolls": 2,
       "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "naturaldecormod:blue_rose_bush",
-          "quality": 10,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "naturaldecormod:white_chrysanth",
-          "quality": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "naturaldecormod:bird_of_paradise",
-          "quality": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "naturaldecormod:marigold_ndm",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 5
-              }
-            }
-          ]
-        }
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:tulip_bundle",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:azure_bluet_bundle",
+                    "weight": 5  
+                },
+                                {
+                    "type": "item",
+                    "name": "naturaldecormod:poppy_bundle",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:buttercup_bundle",
+                    "weight": 3
+                },
+                {
+                  "type": "item",
+                    "name": "naturaldecormod:rose_bundle",
+                    "weight": 1  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:wither_rose_bundle",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:daisy_bundle",
+                    "weight": 5  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:dandelion_bundle",
+                    "weight": 5
+                },
+                                    {
+                  "type": "item",
+                    "name": "naturaldecormod:lilyof_the_valley_bundle",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:cornflower_allium_bundle",
+                    "weight": 5  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:torchflower_bundle",
+                    "weight": 5
+                }
       ]
     },
     {
-      "rolls": {
-        "min": 2,
-        "max": 4
-      },
+      "rolls": 2,
       "entries": [
-        {
-          "type": "item",
-          "weight": 2,
-          "name": "naturaldecormod:lady_slipper_orchid"
-        },
-        {
-          "type": "item",
-          "weight": 5,
-          "name": "naturaldecormod:periwinkle_vincas_ndm",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 5,
-                "max": 8
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 1,
-        "max": 1
-      },
-      "entries": [
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
-        }
+                        {
+                  "type": "item",
+                    "name": "naturaldecormod:lupine_scarlet_ndm",
+                    "weight": 1  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:lupine_pearl_ndm",
+                    "weight": 2  
+                },
+                    {
+                  "type": "item",
+                    "name": "naturaldecormod:lupine_violet_ndm",
+                    "weight": 5  
+                },
+                {
+                    "type": "item",
+                    "name": "naturaldecormod:lupine_diamond_ndm",
+                    "weight": 5
+                }
       ]
     },
     {
       "rolls": 1,
       "entries": [
         {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_shovel",
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "quality": 0,
+          "weight": 2,
+          "conditions": [],
           "functions": [
             {
-              "function": "set_damage",
+              "function": "minecraft:enchant_randomly"
+            },
+            {
+              "function": "minecraft:set_damage",
               "damage": {
                 "min": 0.2,
-                "max": 0.6
+                "max": 0.8
               }
-            },
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "unbreaking",
-                "efficiency"
-              ]
             }
           ]
         },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:iron_hoe",
-          "functions": [
-            {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.5,
-                "max": 0.9
-              }
-            },
-            {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "efficiency",
-                "fortune",
-                "unbreaking"
-              ]
-            }
-          ]
+                {
+          "type": "minecraft:empty",
+          "weight": 6
         },
-        {
-          "type": "item",
-          "weight": 1,
-          "name": "minecraft:shears",
+                {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_shovel",
+          "weight": 2,
+          "quality": 0,
+          "conditions": [],
           "functions": [
             {
-              "function": "set_damage",
-              "damage": {
-                "min": 0.5,
-                "max": 0.9
-              }
+              "function": "minecraft:enchant_randomly"
             },
             {
-              "function": "enchant_randomly",
-              "enchantments": [
-                "efficiency",
-                "unbreaking"
-              ]
+              "function": "minecraft:set_damage",
+              "damage": {
+                "min": 0.2,
+                "max": 0.8
+              }
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "functions": []
 }
