@@ -18,6 +18,15 @@
         "location": "forestkeepers:oases/secret_garden_top",
         "processors": "minecraft:empty"
       }
+    },
+    {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+        "location": "forestkeepers:oases/desert_oasis_top",
+        "processors": "minecraft:empty"
+        }
     }
   ]
 }
