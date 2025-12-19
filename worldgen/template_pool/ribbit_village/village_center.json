@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "forestkeepers:ribbit_village/center_garden",
+        "location": "forestkeepers:ribbit_village/village_center",
         "processors": "minecraft:empty"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "name": "forestkeepers:ribbit_village/house_pool",
+  "name": "forestkeepers:ribbit_village/bridge_pool",
   "fallback": "minecraft:empty",
   "elements": [
         {
@@ -9,29 +9,20 @@
       }
     },
     {
-      "weight": 4,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "forestkeepers:ribbit_village/small_house",
+        "location": "forestkeepers:ribbit_village/bridges/bridge_1",
         "processors": "minecraft:empty"
       }
     },
     {
-      "weight": 3,
+      "weight": 10,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "forestkeepers:ribbit_village/tall_house",
-        "processors": "minecraft:empty"
-      }
-    },
-        {
-      "weight": 100,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "projection": "rigid",
-        "location": "forestkeepers:ribbit_village/test_plot",
+        "location": "forestkeepers:ribbit_village/bridges/bridge_2",
         "processors": "minecraft:empty"
       }
     }

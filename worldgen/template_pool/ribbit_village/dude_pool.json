@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
 	{	
-      "weight": 1,
+      "weight": 8,
       "element": {
         "location": "forestkeepers:ribbit_village/village_dudes/chiller",
         "processors": "minecraft:empty",
@@ -12,7 +12,7 @@
       }
     },
 	{	
-      "weight": 1,
+      "weight": 4,
       "element": {
         "location": "forestkeepers:ribbit_village/village_dudes/fisher",
         "processors": "minecraft:empty",
@@ -21,7 +21,7 @@
       }
     },
 	{	
-      "weight": 1,
+      "weight": 10,
       "element": {
         "location": "forestkeepers:ribbit_village/village_dudes/gardener",
         "processors": "minecraft:empty",
@@ -30,7 +30,7 @@
       }
     },
     {
-        "weight": 1,
+        "weight": 4,
         "element": {
             "location": "forestkeepers:ribbit_village/village_dudes/merchant",
             "processors": "minecraft:empty",
@@ -39,19 +39,13 @@
         }
         },
             {
-        "weight": 1,
+        "weight": 2,
         "element": {
             "location": "forestkeepers:ribbit_village/village_dudes/wizard",
             "processors": "minecraft:empty",
             "projection": "rigid",
             "element_type": "minecraft:single_pool_element"
         }
-        },
-	{
-      "weight": 1,
-      "element": {
-        "element_type": "minecraft:empty_pool_element"
-      }
-    }
+        }
   ]
 }
